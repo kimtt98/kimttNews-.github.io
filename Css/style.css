@@ -1,0 +1,71 @@
+body{
+    background-image: url("https://40.media.tumblr.com/4d81155e636d9e15fc0c5fda6339dac7/tumblr_mmt1e3bpCA1sor8q8o3_1280.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    animation: slideImg 10s infinite;
+}
+@keyframes slideImg{
+10%{
+    background-image: url("https://40.media.tumblr.com/bfc5b1f8b13695258eabddd762b34aa2/tumblr_mqci11sQ491sor8q8o2_1280.jpg");
+}
+30%{
+    background-image: url("https://40.media.tumblr.com/4d81155e636d9e15fc0c5fda6339dac7/tumblr_mmt1e3bpCA1sor8q8o3_1280.jpg");
+}
+50%{
+    background-image: url("https://40.media.tumblr.com/3e89fe1ffd9db4149dfce8ccdaed355e/tumblr_mvhas3Z1jr1sor8q8o3_1280.jpg");
+}
+70%{
+    background-image: url("https://40.media.tumblr.com/803f289603c0d235ede5987b5da6e89a/tumblr_mmt1e3bpCA1sor8q8o6_1280.jpg");
+}
+90%{
+    background-image: url("https://40.media.tumblr.com/5e56486d97348fe896a079dc039a20ae/tumblr_mqci11sQ491sor8q8o3_1280.jpg");
+}
+
+}
+.box{
+    width: 40%;
+    background:rgba(0,0,0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family:  'Century Gothic ', sans-serif;
+    border-radius: 20px;
+}
+.box-img{
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.box h5{
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+.box p{
+    text-align: justify;
+    letter-spacing: 1px;
+}
+.box ul{
+    margin: 0;
+    padding: 0;
+}
+.box ul li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.box ul li a{
+    color: rgb(240, 234, 227);
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+.box ul li a:hover{
+    color: #90dac4 ;
+}
